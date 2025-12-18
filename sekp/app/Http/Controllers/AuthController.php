@@ -27,7 +27,7 @@ class AuthController extends Controller
                 'admin' => redirect('/admin'),
                 'manager' => redirect('/manager'),
                 'karyawan' => redirect('/karyawan'),
-                default => redirect('/user'),
+                default => redirect('/admin'),
             };
         }
 
